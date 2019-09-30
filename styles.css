@@ -34,9 +34,11 @@ header {
 
   }
   
-  .hamburger{
-   float: right;
-  }
+  .hamburger {
+    float: right;
+    width: 81px;
+    margin: 20px;
+}
 
   .hamburger_bar{
     border-top: 5px white solid;
@@ -81,6 +83,9 @@ header {
 .work>h3{
     margin: 21px 58px;
 
+}
+polygon{
+    bottom: 0;
 }
 
 .work{
