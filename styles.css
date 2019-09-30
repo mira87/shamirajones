@@ -1,0 +1,109 @@
+body{
+    padding:0;
+    margin: 0;
+}
+
+
+header>svg{
+        background: #00cdbb;
+        height: 606px;
+        width: 100%;
+        position: absolute;
+        bottom: 0;
+        height: 10vw;
+        left: 0;
+}
+
+.skills{
+    height: 1000px;
+    width: 100%;
+    z-index: -1;
+    position: relative;
+
+}
+
+header {
+    position: absolute;
+    height: 500px;
+    background: #00cdbb;
+    width: 100%;
+    color: white;
+    margin: 0 auto;
+    padding-right: 0px;
+    padding-left: 0px;
+
+  }
+  
+  .hamburger{
+   float: right;
+  }
+
+  .hamburger_bar{
+    border-top: 5px white solid;
+    margin-bottom: 5px;
+  }
+
+  .resume{
+
+    height: 606px;
+    width: 100%;
+    z-index: -1;
+    position: relative;
+
+  }
+
+  h1{
+   
+    /* Hello, */
+    font-family: Arial;
+    font-size: 60px;
+    color: #ffffff;
+    line-height: 69px;
+    /* I am a Full Stack... */
+    font-family: Arial;
+    font-size: 50px;
+    color: #ffffff;
+    line-height: 37px;
+  }
+
+  header p{
+      font-size: 40px
+  }
+ 
+
+  svg{
+    background: #00cdbb;
+    height: 606px;
+    width: 100%;
+    
+}
+
+.work>h3{
+    margin: 21px 58px;
+
+}
+
+.work{
+    display:auto;
+    margin: auto;
+    text-align: center;
+    width: 320px;
+    height: 50px;
+    border: white 3px solid;
+}
+
+header,.resume,.skills{
+    width: 100%;
+}
+  
+.contact{
+    width: 100%;
+
+}
+
+.container{
+    width: 100%;
+    margin:0;
+    overflow: hidden;
+
+}
