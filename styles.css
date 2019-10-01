@@ -97,6 +97,11 @@ polygon{
     border: white 3px solid;
 }
 
+.work>h3 {
+    margin: 8px 48px;
+    font-size: 1.8em;
+}
+
 header,.resume,.skills{
     width: 100%;
 }
@@ -111,4 +116,9 @@ header,.resume,.skills{
     margin:0;
     overflow: hidden;
 
+}
+
+.intro{
+    width: 80%;
+    margin: 0 20px;
 }
