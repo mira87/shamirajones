@@ -1,179 +1,206 @@
-body{
-    padding:0;
-    margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
-
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-
-header>svg{
-        background: #00cdbb;
-        height: 606px;
-        width: 100%;
-        position: absolute;
-        bottom: 0;
-        height: 10vw;
-        left: 0;
+header > svg {
+  background: #0e08a6;
+  height: 606px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  height: 10vw;
+  left: 0;
 }
 
-span{
-    color: #ff5900;
-    
-
+span {
+  color: #ff5900;
 }
 
 .skills {
-    height: 1000px;
-    width: 100%;
-    z-index: -1;
-    position: relative;
-    top: 532px;
-    text-align: center;
-    color: #ff5900;
-    font-size: 30px;
-
+  height: 1000px;
+  width: 100%;
+  z-index: -1;
+  position: relative;
+  top: 532px;
+  text-align: center;
+  color: #ff5900;
+  font-size: 30px;
 }
 
-.skill-list{
-    float: left;
-    width: 33.33%;
+.skill-list {
+  float: left;
+  width: 33.33%;
 }
 
-
-ul{
-    list-style: none;
-    padding-left: 0px;
-    line-height: 50px;
+ul {
+  list-style: none;
+  padding-left: 0px;
+  line-height: 50px;
 }
 
 header {
-    position: absolute;
-    height: 500px;
-    background: #00cdbb;
-    width: 100%;
-    color: white;
-    margin: 0 auto;
-    padding-right: 0px;
-    padding-left: 0px;
-
-  }
-  
-  .hamburger {
-    float: right;
-    width: 81px;
-    margin: 20px;
+  position: absolute;
+  height: 500px;
+  background: #0e08a6;
+  width: 100%;
+  color: white;
+  margin: 0 auto;
+  padding-right: 0px;
+  padding-left: 0px;
 }
 
-  .hamburger_bar{
-    border-top: 5px white solid;
-    margin-bottom: 5px;
-  }
-
-  .resume{
-
-    height: 606px;
-    width: 100%;
-    z-index: -1;
-    position: relative;
-
-  }
-
-  h1{
-   
-    /* Hello, */
-    font-family: Arial;
-    font-size: 60px;
-    color: #ffffff;
-    line-height: 69px;
-    /* I am a Full Stack... */
-    font-family: Arial;
-    font-size: 50px;
-    color: #ffffff;
-    line-height: 37px;
-  }
-
-  header p{
-      font-size: 40px
-  }
- 
-
-  svg{
-    background: #00cdbb;
-    height: 606px;
-    width: 100%;
-    
+.hamburger {
+  float: right;
+  width: 81px;
+  margin: 20px;
 }
 
-.work>h3{
-    margin: 21px 58px;
-
-}
-polygon{
-    bottom: 0;
+.hamburger_bar {
+  border-top: 5px white solid;
+  margin-bottom: 5px;
 }
 
-.work{
-    display:auto;
-    margin: auto;
-    text-align: center;
-    width: 320px;
-    height: 50px;
-    border: white 3px solid;
+.resume {
+  height: 606px;
+  width: 100%;
+  z-index: -1;
+  position: relative;
 }
 
-.work>h3 {
-    margin: 8px 48px;
-    font-size: 1.8em;
+h1 {
+  /* Hello, */
+  font-family: Arial;
+  font-size: 60px;
+  color: #ffffff;
+  line-height: 69px;
+  /* I am a Full Stack... */
+  font-family: Arial;
+  font-size: 50px;
+  color: #ffffff;
+  line-height: 37px;
 }
 
-header,.resume,.skills{
-    width: 100%;
-}
-  
-.contact{
-    width: 100%;
-
+header p {
+  font-size: 40px;
 }
 
-.container{
-    width: 100%;
-    margin:0;
-    overflow: hidden;
-
+svg {
+  background: #0e08a6;
+  height: 606px;
+  width: 100%;
 }
 
-.intro{
-    width: 80%;
-    margin: 0 20px;
+.work > h3 {
+  margin: 21px 58px;
+}
+polygon {
+  bottom: 0;
 }
 
+.work {
+  display: auto;
+  margin: auto;
+  text-align: center;
+  width: 320px;
+  height: 50px;
+  border: white 3px solid;
+  color: #ff5900;
+  overflow: auto;
+}
 
+.works {
+  padding-top: 100px;
+  margin: 200px auto;
+  overflow: auto;
+  height: padding;
+  background: #0e08a6;
+  padding-bottom: 100px;
+}
+
+a:hover {
+  /* cursor: move; */
+  /* cursor: url("./images/shamira.jpg"); */
+  cursor: url("./images/compass.png"), auto;
+}
+
+.works-list {
+  width: 30%;
+  height: 300px;
+  overflow: auto;
+  margin: 100px 18px;
+}
+.cheerups {
+  background-image: url("./images/cheerups.png");
+  background-position: center;
+  background-size: contain;
+  float: left;
+  background-repeat: no-repeat;
+}
+
+.japan {
+  background-image: url("./images/japan.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  float: left;
+}
+
+.trailer {
+  background-image: url("./images/trailertracker.png");
+  background-position: center;
+  background-repeat: no-repeat;
+
+  float: left;
+  background-size: contain;
+}
+
+.work > h3 {
+  margin: 8px 48px;
+  font-size: 1.8em;
+}
+
+header,
+.resume,
+.skills {
+  width: 100%;
+}
+
+.contact {
+  width: 100%;
+}
+
+.container {
+  width: 100%;
+  margin: 0;
+  overflow: hidden;
+}
+
+.intro {
+  width: 80%;
+  margin: 0 20px;
+}
 
 .ball {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    background: #ff5900;
-    top: 319px;
-    left: 0;
-    position: relative;
-    animation-name: move;
-    animation-duration: 10s;
-    animation-fill-mode: both;
-
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: #ff5900;
+  top: 319px;
+  left: 0;
+  position: relative;
+  animation-name: move;
+  animation-duration: 10s;
+  animation-fill-mode: both;
 }
 
-
-@keyframes move{
-    from{transform: translateX(0)}
-    to{transform: translateX(1400px)}
+@keyframes move {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(1400px);
+  }
 }
-
-
-
-
-
-
-
-
-
