@@ -18,6 +18,11 @@ span {
   color: #ff5900;
 }
 
+.works-contained {
+  width: 95%;
+  margin: 0 auto;
+  display: block;
+}
 .skills {
   height: 1000px;
   width: 100%;
@@ -107,7 +112,8 @@ polygon {
   height: 50px;
   border: white 3px solid;
   color: #ff5900;
-  overflow: auto;
+  overflow: hidden;
+  text-decoration: none;
 }
 
 .works {
@@ -119,6 +125,25 @@ polygon {
   padding-bottom: 100px;
 }
 
+.cheerups > .imgHolder {
+  background-image: url("./images/cheerups.png");
+  background-repeat: no-repeat;
+  /* background-position: center; */
+  background-size: cover;
+}
+.trailer > .imgHolder {
+  background-image: url("./images/trailertracker.png");
+  background-repeat: no-repeat;
+  /* background-position: center; */
+  background-size: cover;
+}
+.japan > .imgHolder {
+  background-image: url("./images/japan.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
 a:hover {
   /* cursor: move; */
   /* cursor: url("./images/shamira.jpg"); */
@@ -128,33 +153,31 @@ a:hover {
 .works-list {
   width: 30%;
   height: 300px;
+  overflow: hidden;
+  margin: 100px 15px;
+  color: #0e08a6;
+  background: white;
+  text-align: center;
+}
+
+.imgHolder {
+  margin: 0 auto;
+  display: block;
+  height: 65%;
+  width: 100%;
+  background: orangered;
+}
+.works-contained {
+  width: 95%;
+  margin: 0 auto;
+  display: flex;
   overflow: auto;
-  margin: 100px 18px;
-}
-.cheerups {
-  background-image: url("./images/cheerups.png");
-  background-position: center;
-  background-size: contain;
-  float: left;
-  background-repeat: no-repeat;
+  justify-content: space-around;
 }
 
-.japan {
-  background-image: url("./images/japan.png");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-
-  float: left;
-}
-
-.trailer {
-  background-image: url("./images/trailertracker.png");
-  background-position: center;
-  background-repeat: no-repeat;
-
-  float: left;
-  background-size: contain;
+.imgHolder > img {
+  width: 100%;
+  height: 100%;
 }
 
 .work > h3 {
